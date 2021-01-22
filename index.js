@@ -247,7 +247,6 @@ function get20s(array){
   const newArray = [];
   for (let i=0; i<array.length; i++){
     let yearSplit = array[i].years.split(" ");
-    console.log(yearSplit);
     if (yearSplit[0]>=1900 && yearSplit[2]<2000){
       newArray.push(array[i].name);
     }
